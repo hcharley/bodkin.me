@@ -1,0 +1,964 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+a:-webkit-any-link{
+text-decoration:none;
+}
+a img {outline : none;}
+img {border : 0;}
+a {outline : none;}
+a:focus {outline : none;}
+a img:focus {outline : none;}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: white;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font-size: 16px/26px;
+    font-family: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+margin-top: 40px;
+position: relative;
+
+}
+
+.footer-container,
+.main aside {
+}
+
+.header-container,
+.footer-container,
+.main aside {
+
+}
+
+.welcome {
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+	margin:15px 0;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 42px;
+	margin:15px 0 75px 0;
+}
+.mobiletitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 42px;
+	margin:15px 0 15px 0;
+}
+
+.job-spinner .item {
+    height:40px;
+    width:100%;
+    position:absolute;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 15px 0;
+    display: none;
+}
+.job-spinner .item:first-child {
+	display: inherit;
+}
+.job-spinner {
+    height: 40px;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin:0 auto;
+    padding: 15px 0;
+}
+.job-spinner-container {
+	margin-top:25px;
+	position: relative;
+}
+.cursorlink {
+	
+}
+.animated {
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-10px);}
+	60% {-webkit-transform: translateY(-5px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-10px);}
+	60% {-moz-transform: translateY(-5px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-10px);}
+	60% {-o-transform: translateY(-5px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-10px);}
+	60% {transform: translateY(-5px);}
+}
+
+.bounce {
+	-webkit-animation: 2s bounce infinite;
+	-moz-animation: 2s bounce infinite;
+	-o-animation: 2s bounce infinite;
+	animation: 2s bounce infinite;
+	
+}
+.section-connect h3 {
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.contact-form {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+}
+.contact-form textarea {
+	width: 100%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	border: 3px solid black;
+	padding: 8px;
+	margin: 0 0 10px 0;
+	height: 200px;
+    font-family: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+
+}
+.contact-form label {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+}
+.contact-form input {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	border: 3px solid black;
+	padding: 8px;
+	margin: 0 0 10px 0;
+	width: 100%;
+	font-family: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+	line-height: 20px;
+}
+.contact-form #success {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	border: 3px solid black;
+	width: 100%;
+	font-family: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+	text-transform: uppercase;
+	color:black;
+	background: white;
+	text-align: center;
+	font-size: 17px;
+	line-height: 10px;
+	padding: 10px;
+	margin-top:2px;
+	margin-bottom:0;
+}
+
+.contact-form #submit {
+	text-transform: uppercase;
+	color:white;
+	background: black;
+	font-size: 17px;
+	line-height: 10px;
+	padding: 10px;
+	margin-top:2px;
+	margin-bottom:0;
+}
+.contact-form #submit:hover {
+	background: white;
+	color:black;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.social-icons {
+	max-width:400px;
+	margin:0 auto;
+	clear: both;
+	height: 75px;
+}
+.sicon:hover {
+	text-decoration: underline;
+}
+.sicon {
+	float:left;
+	width: 33%;
+	text-align: center;
+}
+.sicon img {
+	width:80px;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+.sicon span {
+	display: block;
+	color:black;
+}
+footer {
+	text-align: center;
+	background: black;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	padding-bottom: 50px;
+}
+.section-blog a {
+	color:white;
+}
+.section-blog a:hover {
+	text-decoration: underline;
+}
+
+footer a {
+	color:white;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.form-hidden {
+	display: none;
+}
+.error {
+	color:red;
+	float:right;
+	display: none;
+}
+.form-email input {
+	text-transform: lowercase;
+}
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: black;
+}
+
+nav a img {
+	height: 150px;
+}
+nav a span {
+	display: block;
+}
+
+nav a:hover,
+nav a:visited {
+}
+
+nav a:hover, a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.curvy-container {
+	width:100%;
+	overflow:hidden;
+	height:100px;
+}
+.curvy-container canvas {
+	width:150%;
+	height:100px;
+	left:-25%;
+	position:relative;
+}
+
+.darkbreak {
+	background: black;
+	text-align: center;
+	color: white;
+	margin:0;
+	padding: 15px;
+}
+
+section h2 {
+	font-size: 30px;
+	line-height: 45px;
+	margin:0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.section-name h3 {
+	margin:0;
+
+}
+.section-name h4 {
+	margin:0;
+	font-size: 25px;
+}
+.section-name a {
+	color:white;
+	text-decoration: none;
+}
+.section-name a:hover {
+	text-decoration: underline;
+}
+.hidden-content {
+	display: none;
+	max-width: 740px;
+	margin:0 auto;
+}
+.section-about p {
+	max-width: 740px;
+	margin:0 auto;
+	padding: 0 5%;
+	text-align: center;
+}
+
+.section-name p {
+	max-width: 740px;
+	text-align: center;
+}
+.smallcaps {
+	font-variant:small-caps;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.job-spinner .longtext {
+	font-size: 20px;
+}
+.frame {
+	opacity: 0;
+}
+.loader {
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: white;
+}
+.spinner {
+	margin: 20% auto;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	-webkit-animation: rotate 2.0s infinite linear;
+	animation: rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: spin 2.0s infinite ease-in-out;
+  animation: spin 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0px;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes spin {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes spin {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+#portfolio-container {
+	max-width:940px;
+	margin: 0 auto;
+}
+#portfolio-container ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+#portfolio-container ul li {
+	margin:5px;
+	padding: 0;
+	z-index: 0;
+	position: relative;
+	display: inline-block;
+		width: 220px;
+
+}
+#portfolio-container ul li:hover {
+	cursor: pointer;
+/* 	box-shadow:  0 0 1px 2px black; */
+	z-index: 10;
+
+}
+#portfolio-container ul li img {
+	width: 220px;
+	height: 150px;
+}
+#portfolio-container ul iframe {
+	display: block;
+}
+.item-meta {
+text-align: left;
+color: black;
+/*
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+*/
+}
+.item-meta .item-meta-type {
+/*
+	padding-top:40px;
+	text-shadow: 1px 1px 1px black;
+	text-decoration: underline;
+*/
+text-transform: uppercase;
+font-size: 10px;
+margin-top: 5px;
+}
+.item-meta .item-meta-name {
+/*
+	font-size: 20px;
+	text-shadow: 1px 1px 1px black;
+	text-decoration: none !important;
+*/
+font-size: 15px;
+text-transform: uppercase;
+}
+.section-blog .post-list {
+	color:white;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	font-size: 22px;
+}
+.section-blog .post-list li a {
+	color:white;
+	text-decoration: none;
+	width:100%;
+	text-align: center;
+}
+.section-blog .post-list li a:hover {
+	text-decoration: underline;
+}
+
+#portfolio-container h4 {
+	font-size:25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.lat-project {
+	width:100%;
+	clear:both;
+}
+.lat-project-art {
+  width: 55%;
+	float:left;
+}
+.lat-project-art img {
+  width: 100%;
+}
+.lat-project-desc {
+	float:left;
+	width:40%;
+	margin-left:5%;
+}
+.lat-project-desc h5, .lat-project-col h5 {
+	font-size:20px;
+	margin-bottom:0;
+	margin-top:0;
+}
+.lat-project-col {
+	width:49%;
+	margin:10px .5%;
+	float:left;
+}
+/* Map */
+			#worldmap {
+				width: 100%;
+				max-width: 100%;
+				height: 500px;
+				text-align: center;
+				overflow: hidden;
+				position: relative;
+			}
+			#worldmap svg {
+				display: inline-block;
+				width:500px;
+			}
+			.geo-globe {
+				fill: rgba(0,0,0,0.1);
+			}
+
+			.geo-path {
+				fill: black; 
+			}
+
+			.geo-path:hover {
+				fill: #222; 
+			}
+			line {
+				stroke-width: 5;
+				stroke: black; 
+			}
+			.geo-node {
+				stroke-width: 0.5;
+				stroke: black; 
+				fill: white; 
+			    width:10px;
+				opacity: .8;
+    -webkit-transition: all ease-out 500ms;
+    -moz-transition: all ease-out 500ms;
+    -o-transition: all ease-out 500ms;
+    transition: all ease-out 500ms;
+
+			}
+/*
+			.geo-node.school {
+				fill: blue; 
+			}
+			.geo-node.travel {
+				fill: green; 
+			}
+			.geo-node.website {
+				fill: yellow; 
+			}
+			.geo-node.home {
+				fill: cyan; 
+			}
+			.geo-node.award {
+				fill: red; 
+			}
+*/
+				.geo-node:hover {
+				stroke-width: 0.2;
+				opacity: 1;
+				}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 650px) {
+.title {
+	display: none;
+}
+.mobiletitle {
+	display: block;
+}
+}
+@media only screen and (min-width: 650px) {
+.title {
+	display: block;
+}
+.mobiletitle {
+	display: none;
+}
+
+}
+@media only screen and (max-width: 500px) {
+}
+@media only screen and (min-width: 480px) {
+section h2 {
+	font-size: 50px;
+	line-height: 85px;
+	margin:0;
+}
+
+nav ul {
+    margin: 150px 0 15px 0;
+}
+
+.welcome {
+	font-size: 30px;
+	line-height: 30px;
+ }
+
+.job-spinner .longtext {
+	font-size: 30px;
+}
+title {
+	font-size: 42px;
+	margin:15px 0 75px 0;
+}
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 25%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+    position: relative;
+
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+.title {
+	font-size: 50px;
+	margin:15px 0 75px 0;
+}
+
+    nav {
+    	width: 100%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+.title {
+	font-size: 72px;
+}
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+#portfolio-container h3 {
+	text-align: center;
+}
+h3 a {
+	color:black;
+}
+h3 a:hover {
+	text-decoration: underline;}
